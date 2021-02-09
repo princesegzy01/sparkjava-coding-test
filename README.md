@@ -45,7 +45,8 @@ You can find the mock implementation for the remote URLs in the MockRemotes clas
 
 5. Refactor the existing code base.
     - Feel free to add comments to the code to clarify the changes you are making.
-## Sending in the assignment
-- You may send in the assignment on a git repository or as a zip.
-
+## Improvement
+- Added Test Case.
+- Refactor Codebase
+- Return Json for all Request
 
