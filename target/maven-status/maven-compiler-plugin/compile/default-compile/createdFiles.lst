@@ -1,0 +1,4 @@
+io/bankbridge/model/BankModel.class
+io/bankbridge/Main.class
+io/bankbridge/handler/BanksRemoteCalls.class
+io/bankbridge/model/BankModelList.class
