@@ -48,5 +48,12 @@ You can find the mock implementation for the remote URLs in the MockRemotes clas
 ## Improvement
 - Added Test Case.
 - Refactor Codebase
-- Return Json for all Request
+- Return Json for all Response
+- Added `countryCode`, `offset` and `limit` queryString to filter and Paginate result.
+
+## Test Case
+Test cases for the 2 endpoints(`/v1` and `/V2`) are both available at `src/test/java/io.bankbridge/handler/BanksRemoteCallsTest.java`
+
+## Postman Collection
+
 
