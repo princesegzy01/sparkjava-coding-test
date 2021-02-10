@@ -55,5 +55,27 @@ You can find the mock implementation for the remote URLs in the MockRemotes clas
 Test cases for the 2 endpoints(`/v1` and `/V2`) are both available at `src/test/java/io.bankbridge/handler/BanksRemoteCallsTest.java`
 
 ## Postman Collection
+QueryStrings
+ - countryCode : String - This is a 2 Character country code
+ - offset : int - This is the starting point of data retrieval
+ - lImit : int - This is the number of record yuo want to get from a request
+
+### Example request
+    localhost:8080/v2/banks/all?offset=0&limit=2&countryCode=CH
+
+    [
+        {
+            "auth": "open-id",
+            "countryCode": "CH",
+            "name": "Credit Sweets",
+            "id": "CUPIDATATSP1XXX"
+        },
+        {
+            "auth": "open-id",
+            "countryCode": "CH",
+            "name": "Bank Dariatur",
+            "id": "DODEU8XXX"
+        }
+    ]
 
 
